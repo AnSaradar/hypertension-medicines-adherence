@@ -43,7 +43,7 @@ async def predict(patient_data: PatientInfoModel):
 
         prediction_class = "The Patient will have a high Adherence to Hypertension medciens" if prediction[0] == 1 else "The Patient will have a low Adherence to Hypertension medciens"
 
-        return JSONResponse(status_code=status.status.HTTP_200_OK,
+        return JSONResponse(status_code=status.HTTP_200_OK,
                                     content={
                                             "Prediction Class" : prediction_class,
                                             "Prediction Probability" : prediction_proba[0],
