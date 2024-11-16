@@ -1,0 +1,37 @@
+.
+├── README.md
+├── project_structure.txt
+└── src
+    ├── __pycache__
+    │   ├── main.cpython-38.pyc
+    │   └── main.cpython-39.pyc
+    ├── logistic_regression_model.joblib
+    ├── main.py
+    ├── preprocessing
+    │   ├── Preprocessing.py
+    │   ├── __init__.py
+    │   └── __pycache__
+    │       ├── Preprocessing.cpython-38.pyc
+    │       ├── Preprocessing.cpython-39.pyc
+    │       ├── __init__.cpython-38.pyc
+    │       └── __init__.cpython-39.pyc
+    ├── requirements.txt
+    ├── routes  
+    │   ├── __init__.py
+    │   ├── __pycache__
+    │   │   ├── __init__.cpython-38.pyc
+    │   │   ├── __init__.cpython-39.pyc
+    │   │   ├── adherence.cpython-38.pyc
+    │   │   ├── adherence.cpython-39.pyc
+    │   │   ├── base.cpython-38.pyc
+    │   │   └── base.cpython-39.pyc
+    │   ├── adherence.py
+    │   └── base.py
+    ├── schemes
+    │   ├── PatientInfoModel.py
+    │   └── __pycache__
+    │       ├── PatientInfoModel.cpython-38.pyc
+    │       └── PatientInfoModel.cpython-39.pyc
+    └── trained-models
+
+9 directories, 25 files
